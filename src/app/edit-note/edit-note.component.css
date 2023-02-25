@@ -4,6 +4,8 @@ textarea
   background-image: linear-gradient(transparent, transparent calc(4ch - 1px), #48eaff8a 0px);
   background-size: 100% 4ch;
   outline: none !important;
+  max-height: 38rem;
+  min-height: 38rem;
 }
 input:focus, textarea:focus {
   outline: none !important;
