@@ -1,0 +1,8 @@
+<div style="cursor:pointer" (click)="addNewNote()">
+  <i class="fa-solid fa-file-circle-plus m-2"></i>
+  <span style="font-weight: 500;font-size:1.25rem">ADD NEW NOTE</span>
+  <hr>
+</div>
+<div *ngFor="let note of noteService.notes">
+  <app-note-sidebar [note]="note" (editNoteEvent)="editNote($event)" (deleteNoteEvent)="deleteNote($event)"></app-note-sidebar>
+</div>

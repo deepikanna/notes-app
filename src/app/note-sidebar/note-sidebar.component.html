@@ -1,0 +1,11 @@
+<div style="display: flex;
+align-items: center;
+justify-content: space-between;">
+  <span>{{note.heading}}</span>
+  <div style="display: flex;">
+    <i class="fa-solid fa-file-pen m-1" title="Edit Note" style="cursor:pointer" (click)="editNote(note)"></i>
+    <i class="fa-solid fa-trash m-1" title="Delete Note" style="cursor:pointer" (click)="deleteNote(note)"></i>
+  </div>
+</div>
+
+<hr>
