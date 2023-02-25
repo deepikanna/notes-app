@@ -1,5 +1,11 @@
 # NotesApp
 
+This project is used to
+- Add a new note
+- Edit a note
+- Delete a note
+- Store all notes in a single page
+ 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
 
 ## Development server
